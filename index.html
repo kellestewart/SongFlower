@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SongFlower</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+<body>
+  <header class = "title"><img src="purple-lotus.png" width="45" height="30"/>SongFlower<img src="purple-lotus.png" width="45" height="30"/></header></br>
+
+  <form role="form"
+  accept-chartset="UTF-8"
+  class="song-questions">
+  
+  <p>Writing a great song but stumped on the lyrics? No worries!</p>
+      <p>SongFlower will help you find the perfect words to complete your verses.<p>
+        <p>CHOOSE ONE OF THE SEARCH METHODS BELOW:
+      </p>
+  
+
+  </form></br>
+
+  <div class="container2">
+    <h2>RHYMING WORD SEARCH</h2>
+        <form id="rhyme-form">
+             <label for="selection">What is your song about?</label>
+             <input type="text" name="subject" autocomplete="off" id="subject" placeholder="sky" style="height: 35px;" required></br>
+
+             <label for="selection">Fetch words that rhyme with:</label>
+             <input type="text" name="rhyme" autocomplete="off" id="rhyme" placeholder="blue" style="height: 35px;" required></br></br>
+
+             <button class = "submitRhyme" type="submit">Go Fetch!</button>
+             </form></br>
+             <section class="rhyme-results hidden"></section>
+    </div></br>
+
+    <div class="container2">
+        <form id="adjective-form">
+          <h2>ADJECTIVE SEARCH</h2>
+             <label for="selection">Fetch words to describe:</label>
+             <input type="text" name="meaning" autocomplete="off" id="adjective" placeholder="beautiful" style="height: 35px;" required></br></br>
+
+             <button class = "submitAdjective" type="submit">Go Fetch!</button></br>
+             <form></br>
+               <section class="adjective-results hidden"></section>
+    </div></br>
+  
+    
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="index.js"></script> 
+</body>
+</html>

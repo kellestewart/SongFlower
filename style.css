@@ -1,0 +1,88 @@
+.title {
+    color:  rgb(68, 9, 68);
+    box-sizing: border-box;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    display: block;
+    padding: 35px;
+    text-align: center;
+    height: auto;
+    background-color: white;
+    opacity: 0.7;
+     width: fit-content;
+    border: 10px solid darkmagenta;
+    border-radius: 25px;
+  }
+  
+  button[type="submit"] {
+    height: auto;
+    font-size: 22px;
+    font-weight: 300px;
+    text-align: center;
+    color: black;
+    background: plum;
+    border: 10px solid darkmagenta;
+    cursor: pointer;
+    margin-bottom: 0;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 50%;
+  }
+  .song-questions, .container2 {
+    color:  rgb(68, 9, 68);
+    box-sizing: border-box;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    display: block;
+    padding: 35px;
+    text-align: center;
+    height: auto;
+    background-color: white;
+    opacity: 0.9;
+     width: fit-content;
+    border: 10px solid darkmagenta;
+    border-radius: 25px;
+  }
+  
+  .js-form {
+   display: block;
+   padding: 60px;  
+  }
+  
+  .max-results {
+   display: block;
+   padding: 60px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .results {
+    display: block
+  }
+  
+  .rhyme, .subject {
+    padding: 30px;
+  }
+  
+  body {
+   background-image: url("sheetmusic.jpeg");
+   background-color: #cccccc;
+   background-repeat: repeat-y;
+   background-size: cover;
+   list-style-type: none
+  }
+  
+  
+  input[type="text"] {
+  border: 3px solid rgb(68, 9, 68);
+  border-radius: 10px;
+  font-size: 25px;
+  }
+  
+  #submitRhyme, #submitAdjective {
+    border:none;
+  }
